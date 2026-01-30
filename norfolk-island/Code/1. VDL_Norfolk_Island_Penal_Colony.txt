@@ -1,0 +1,86 @@
+VDL Norfolk Island Penal Colony
+
+A reconstructed register of convicts detained at the Norfolk Island Penal Colony. Data was prepared by Dr Tim Causer (University College London) and curated for the Prosecution Project by Mark Finnane and Lisa Durnian. 
+
+This dataset contains records from the following registers
+
+Register Name       : VDL_NIPC
+Jurisdiction        : NSW 1825–44, VDL 1844–55
+Register Source     : Data has been prepared from original archival sources by Tim Causer
+Register Identifier : not applicable
+Description         : Data (including penal transportation, shipping, convict administration and court records) has been prepared from original archival sources by Tim Causer, in the course of his doctoral research at the Menzies Centre for Australian Studies, King’s College London. The research was funded by the Arts and Humanities Research Council’s Doctoral Awards scheme.
+In interpreting the data, users are advised to consult the ‘list of abbreviations’ as well as the list of sources, both included in metadata attached to the data file.
+
+Data Dictionary
+---------------
+Register VDL_NIPC
+trial_id              : Unique Trial ID
+def_firstname         : given name
+def_othername         : other names (may include alias)
+def_sex               : sex
+def_surname           : surname
+notes                 : notes (may include additional information including transportation details, assignments to probation stations etc - words in square brackets are attributes for data that follows each close of bracket, where applicable)
+offence               : offence (for which transported to VDL)
+sentence              : (text)
+trial_date            : (date format:yyyy mm dd)
+trial_place           : town or county, may include CCC (Central Criminal Court London); may include colonial places.
+line_number           : sequence number on original data file - includes prefix - mb=Millbank; vdl=VDL;nsw=NSW; mac=Maconochie's men; fbc=free or born colony
+fas_id                : FAS id (Founders and Survivors id number)
+date_arrived_aus      : date arrived in colony
+manual_source         : archival sources, including State Records of NSW, Tasmanian Archive ad Heritage Office, The National Archives (full description of sources in data file metadata)
+police_number         : police number (TAHO)
+sentence_years        : sentence years (numeric) - 99 equals life
+pris_ht               : height (may be either imperial or metric)
+def_age               : age in years
+def_literacy          : literacy (R=read; W=write; B=read and write; BL = ‘both a little’etc.)
+def_religion          : religion 
+marital_status        : marital status 
+children_nr           : number of children
+cash_sav              : cash in bank (see Founders and Survivors records)
+occupation            : occupation
+birth_country         : birthplace (may include country, county, town)
+coloffence_info       : colonial offence (for prisoners sentenced in colony on original or secondary offence) 
+prev_transp           : transported previously 
+priorconvictions_text : prior convictions 
+depni_date            : date of departure from NI 
+depni_ship            : ship of departure from NI
+offence_ni            : offences on NI
+probat_date           : date of probation
+tl_date               : date of ticket of leave
+death_notes           : notes on death
+probat_dur            : length of probation
+ship                  : ship to Australia
+trial_court           : location or level of court in trial for colonial offences
+date_1stkconv         : date of original conviction (may be date format or text)  (for prisoner transported before colonial offence)
+offence_1stkconv      : original offence(for prisoner transported before colonial offence)
+trialplace_1stkconv   : trial place(for prisoner transported before colonial offence)
+sentence_1stkconv     : sentence tranportation(for prisoner transported before colonial offence)
+sentduryears_1stkconv : (for prisoner transported before colonial offence)
+court_1stkconv        : (for prisoner transported before colonial offence)
+arrivni_date          : arrived Norfolk Island 
+
+
+
+
+
+trial_id: used as convict ID
+offence_pp_general: 1-level (general) offence class
+offence_pp: 2-level (specific) offence class
+pp_sentence_years: sentence years
+trial_month: the month of trial
+trial_year: the year of trial
+trial_place: the place of trial
+pris_ht_pp: height in cm
+def_age_pp: age
+def_literacy: literacy capability from 0 to 4
+def_religion_pp: religion
+marital_status_pp: martial status
+children_nr: number of children
+cash_sav_pp: amount of cash
+occupation_pp: occupation
+coloffence_info: whether it is co offence
+offence_ni: whether the person commit an offence during the sentence period
+death_in_custody_pp: whether the person dies in custody
+length_of_stay_until_probat: length of stay until probation
+length_of_stay_until_tl: length of stay until getting the ticket of leave
+previous_convictions: whether the person has previous convictions before having the current conviections.
